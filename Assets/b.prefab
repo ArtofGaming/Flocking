@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8585151202965846319}
   - component: {fileID: 2207998815193694969}
   - component: {fileID: 522933398108325473}
-  - component: {fileID: 1652616133550936304}
+  - component: {fileID: 5399946099914865217}
   m_Layer: 0
   m_Name: b
   m_TagString: boid
@@ -98,7 +98,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1652616133550936304
+--- !u!114 &5399946099914865217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,6 +114,7 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 10
   maxAngularVelocity: 45
-  myTarget: {fileID: 8056282271473177809, guid: 0df7147b5d29b024cbdcb0a0bbaa6db6, type: 3}
-  myCohereTarget: {fileID: 8056282271473177809, guid: 0df7147b5d29b024cbdcb0a0bbaa6db6, type: 3}
+  myTarget: {fileID: 0}
+  avoidObstacles: 0
+  myCohereTarget: {fileID: 0}
   boids: []
